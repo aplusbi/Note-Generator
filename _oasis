@@ -1,0 +1,15 @@
+OASISFormat: 0.2
+Name:        Note Generator
+Version:     0.1
+Synopsis:    bitly
+Authors:     Niki Yoshiuchi
+License:     Apache-2.0
+Plugins:     DevFiles (0.2), Meta (0.2)
+
+Executable note_gen
+  Path:       src
+  BuildTools: ocamlbuild
+  CompiledObject: best
+  MainIs:     main.ml
+  BuildDepends: unix, ocaml_smf
+  
